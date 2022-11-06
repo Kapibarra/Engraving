@@ -776,7 +776,10 @@ header a.logo img {
   border-radius: 50px;
   margin-right: 8px;
   background-color: #55a8fd;
-  padding: 5px;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Rubik", serif;
 }
 
 /* ===================================
@@ -941,7 +944,8 @@ header a.logo img {
 }
 
 .bg-img1 {
-  background-image: url(../img/bg-img1.jpg);
+  background-image: url(../img/bg-img1.png);
+  opacity: 1.6;
 }
 
 .bg-img2 {
