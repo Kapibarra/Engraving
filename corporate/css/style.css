@@ -744,6 +744,7 @@ header a.logo img {
   position: fixed;
   bottom: 100px;
   right: 22px;
+  z-index: 99;
 }
 .main__social-wrapper img {
   padding: 10px;
@@ -772,6 +773,9 @@ header a.logo img {
   margin: 0;
   padding: 0;
   margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .content-list li {
@@ -2177,5 +2181,21 @@ select.inputerror {
 
   .page-title {
     margin-top: 108px;
+  }
+}
+
+.desktop-only {
+  display: block;
+}
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
   }
 }
