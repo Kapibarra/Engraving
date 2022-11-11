@@ -740,6 +740,21 @@ header a.logo img {
 /* ===================================
     Parallax Half Right
 ====================================== */
+.main__social-wrapper {
+  position: fixed;
+  bottom: 100px;
+  right: 22px;
+}
+.main__social-wrapper img {
+  padding: 10px;
+  filter: brightness(1);
+  transition: all 0.5s;
+}
+.main__social-wrapper img:hover img {
+  filter: brightness(1.2);
+  cursor: pointer;
+  transition: all 0.5s;
+}
 
 .half-right {
   display: inline-block;
