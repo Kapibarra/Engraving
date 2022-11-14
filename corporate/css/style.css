@@ -241,7 +241,7 @@ section,
 
 /* text-color */
 .main-color {
-  color: #55a8fd;
+  color: red;
 }
 .alt-color {
   color: #00d58c;
@@ -329,15 +329,15 @@ section,
   color: #3e3939 !important;
 }
 .btn.btn-blue {
-  background: #55a8fd;
-  border-color: #55a8fd;
+  background: red;
+  border-color: red;
   color: #ffffff;
 }
 .btn.btn-blue:hover,
 .btn.btn-blue:focus {
   background: transparent !important;
-  border-color: #55a8fd;
-  color: #55a8fd !important;
+  border-color: darkred;
+  color: darkred !important;
 }
 .btn.btn-green {
   background: #00d58c;
