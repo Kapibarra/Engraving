@@ -584,7 +584,24 @@ header a.logo img {
   -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
 }
+.header {
+  align-items: center;
+}
 
+@media screen and (max-width: 428px) {
+.header {
+  flex-direction: column !important;
+}
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 100% !important;
+  display: flex !important;
+  align-items: flex-start!important;
+}
+
+
+
+}
 @-webkit-keyframes animationFade {
   from {
     opacity: 0;
