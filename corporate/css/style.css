@@ -127,7 +127,7 @@ p:last-child {
 }
 a:active,
 a:hover {
-  color: #55a8fd;
+  color: red;
 }
 blockquote {
   border-left: 2px solid;
@@ -236,7 +236,7 @@ section,
   background-color: #333c49 !important;
 }
 .bg-blue {
-  background-color: #55a8fd;
+  background-color: red;
 }
 
 /* text-color */
@@ -244,7 +244,7 @@ section,
   color: red;
 }
 .alt-color {
-  color: #00d58c;
+  color: #333c49;
 }
 .text-dark {
   color: #333c49;
@@ -340,15 +340,15 @@ section,
   color: darkred !important;
 }
 .btn.btn-green {
-  background: #00d58c;
-  border-color: #00d58c;
+  background: #333c49;
+  border-color: #333c49;
   color: #ffffff;
 }
 .btn.btn-green:hover,
 .btn.btn-green:focus {
   background: transparent !important;
-  border-color: #00d58c;
-  color: #00d58c !important;
+  border-color: #333c49;
+  color: #333c49 !important;
 }
 .btn.btn-hvr-white:hover,
 .btn.btn-hvr-white:focus {
@@ -635,7 +635,7 @@ header a.logo img {
 }
 
 .navbar.navbar-static .nav-link.active {
-  color: #55a8fd;
+  color: red;
 }
 
 .navbar.navbar-static .dropdown-menu {
@@ -794,7 +794,7 @@ header a.logo img {
   border: 2px solid #fff;
   border-radius: 50px;
   margin-right: 8px;
-  background-color: #55a8fd;
+  background-color: red;
   padding: 15px;
   font-size: 22px;
   font-weight: 900;
@@ -941,11 +941,11 @@ header a.logo img {
 }
 
 .price-item .price-list.blue li i {
-  background-color: #55a8fd;
+  background-color: red;
 }
 
 .price-item .price-list.green li i {
-  background-color: #00d58c;
+  background-color: #333c49;
 }
 
 /* ===================================
@@ -1172,7 +1172,7 @@ header a.logo img {
   font-size: 23px;
   line-height: 47px;
   color: #fff;
-  background-color: #55a8fd;
+  background-color: red;
   display: none;
   height: 45px;
   width: 45px;
@@ -1189,7 +1189,7 @@ header a.logo img {
 }
 
 .scroll-top-arrow:hover {
-  background-color: #00d58c;
+  background-color: #333c49;
 }
 
 /* ===================================
@@ -1232,7 +1232,7 @@ header a.logo img {
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #55a8fd;
+  background-color: red;
   border-radius: 100%;
 
   -webkit-animation: sk-bounce 2s infinite ease-in-out;
@@ -1244,7 +1244,7 @@ header a.logo img {
   bottom: 0;
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
-  background-color: #00d58c;
+  background-color: #333c49;
 }
 
 @-webkit-keyframes sk-rotate {
@@ -1356,7 +1356,7 @@ header a.logo img {
 
 .page-breadcrumb li a .icon {
   margin-right: 4px;
-  color: #00d58c;
+  color: #333c49;
 }
 
 .page-breadcrumb li a:hover {
@@ -1389,11 +1389,11 @@ header a.logo img {
 
 .post-details .post-categories a {
   position: relative;
-  color: #00d58c;
+  color: #333c49;
   padding: 4px 15px;
   margin-right: 3px;
   display: inline-block;
-  border: 1px solid #00d58c;
+  border: 1px solid #333c49;
   border-radius: 50px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1404,7 +1404,7 @@ header a.logo img {
 
 .post-details .post-categories a:hover {
   color: #fff;
-  background-color: #00d58c;
+  background-color: #333c49;
 }
 
 .post-details {
@@ -1628,7 +1628,7 @@ header a.logo img {
   right: 0;
   z-index: 5;
   cursor: pointer;
-  background: #00d58c;
+  background: #333c49;
   color: #fff;
 }
 
@@ -2040,9 +2040,9 @@ select.inputerror {
 
 @media screen and (min-width: 991px) {
   .btn.btn-nav {
-    border-color: #55a8fd;
-    background: #55a8fd;
-    border-color: #55a8fd;
+    border-color: red;
+    background: red;
+    border-color: red;
     color: #ffffff;
     font-size: 12px;
     padding: 6px 25px 5px;
@@ -2050,8 +2050,8 @@ select.inputerror {
 
   .btn.btn-nav:hover {
     background-color: transparent;
-    border-color: #55a8fd;
-    color: #55a8fd;
+    border-color: red;
+    color: red;
   }
 }
 @media screen and (max-width: 991px) {
