@@ -1,9 +1,9 @@
 //contact us form
-$(".contact_btn").on('click', function () {
+$(".contact_btnnn").on('click', function () {
     //disable submit button on click
-    // $(".contact_btn").attr("disabled", "disabled");
-    // $(".contact_btn b").text('Sending');
-    $(".contact_btn i").removeClass('d-none');
+    // $(".contact_btnn").attr("disabled", "disabled");
+    // $(".contact_btnn b").text('Sending');
+    $(".contact_btnn i").removeClass('d-none');
 
     //simple validation at client's end
     var post_data, output;
@@ -51,7 +51,7 @@ $(".contact_btn").on('click', function () {
                 if ($("#result").length) {
                     // alert("yes");
                     $("#result").hide().html(output).slideDown();
-                    $(".contact_btn i").addClass('d-none');
+                    $(".contact_btnn i").addClass('d-none');
                 }else{
                     if (response.type == 'error') {
                         Swal.fire({
@@ -60,7 +60,7 @@ $(".contact_btn").on('click', function () {
                             title: 'Oops...',
                             html: '<div class="text-danger">'+ response.text +'</div>',
                         })
-                        $(".contact_btn i").addClass('d-none');
+                        $(".contact_btnn i").addClass('d-none');
                     }else{
                         Swal.fire({
                             type: 'success',
@@ -68,7 +68,7 @@ $(".contact_btn").on('click', function () {
                             title: 'Success!',
                             html: '<div class="text-success">'+ response.text +'</div>',
                         })
-                        $(".contact_btn i").addClass('d-none');
+                        $(".contact_btnn i").addClass('d-none');
                     }
                 }
             },
@@ -84,7 +84,7 @@ $(".contact_btn").on('click', function () {
             // alert("yes");
             output = '<div class="alert-danger" style="padding:10px 15px; margin-bottom:30px;">Please provide the missing fields.</div>';
             $("#result").hide().html(output).slideDown();
-            $(".contact_btn i").addClass('d-none');
+            $(".contact_btnn i").addClass('d-none');
         }else{
             Swal.fire({
                 icon: 'error',
@@ -92,7 +92,7 @@ $(".contact_btn").on('click', function () {
                 title: 'Oops...',
                 html: '<div class="text-danger">Please provide the missing fields.</div>'
             })
-            $(".contact_btn i").addClass('d-none');
+            $(".contact_btnn i").addClass('d-none');
         }
 
     }
@@ -104,11 +104,11 @@ $(".contact_btn").on('click', function () {
 
 //modal window form
 
-$(".modal_contact_btn").on('click', function () {
+$(".modal_contact_btnn").on('click', function () {
     //disable submit button on click
-    // $(".modal_contact_btn").attr("disabled", "disabled");
-    // $(".modal_contact_btn b").text('Sending');
-    $(".modal_contact_btn i").removeClass('d-none');
+    // $(".modal_contact_btnn").attr("disabled", "disabled");
+    // $(".modal_contact_btnn b").text('Sending');
+    $(".modal_contact_btnn i").removeClass('d-none');
 
     //simple validation at client's end
     var post_data, output;
@@ -153,7 +153,7 @@ $(".modal_contact_btn").on('click', function () {
 
                 if ($("#quote_result").length) {
                     $("#quote_result").hide().html(output).slideDown();
-                    $(".modal_contact_btn i").addClass('d-none');
+                    $(".modal_contact_btnn i").addClass('d-none');
                 }else{
                     if (response.type == 'error') {
                         Swal.fire({
@@ -162,7 +162,7 @@ $(".modal_contact_btn").on('click', function () {
                             title: 'Oops...',
                             html: '<div class="text-danger">'+ response.text +'</div>',
                         })
-                        $(".modal_contact_btn i").addClass('d-none');
+                        $(".modal_contact_btnn i").addClass('d-none');
                     }else{
                         Swal.fire({
                             type: 'success',
@@ -170,11 +170,11 @@ $(".modal_contact_btn").on('click', function () {
                             title: 'Success!',
                             html: '<div class="text-success">'+ response.text +'</div>',
                         })
-                        $(".modal_contact_btn i").addClass('d-none');
+                        $(".modal_contact_btnn i").addClass('d-none');
                     }
                 }
                 // $("#quote_result").hide().html(output).slideDown();
-                // $(".modal_contact_btn i").addClass('d-none');
+                // $(".modal_contact_btnn i").addClass('d-none');
             },
             error: function () {
                 alert("Failer");
@@ -185,12 +185,12 @@ $(".modal_contact_btn").on('click', function () {
     else {
         // output = '<div class="alert-danger" style="padding:10px 15px; margin-bottom:30px;">Please provide the missing fields.</div>';
         // $("#quote_result").hide().html(output).slideDown();
-        // $(".modal_contact_btn i").addClass('d-none');
+        // $(".modal_contact_btnn i").addClass('d-none');
         if ($("#quote_result").length) {
             // alert("yes");
             output = '<div class="alert-danger" style="padding:10px 15px; margin-bottom:30px;">Please provide the missing fields.</div>';
             $("#quote_result").hide().html(output).slideDown();
-            $(".modal_contact_btn i").addClass('d-none');
+            $(".modal_contact_btnn i").addClass('d-none');
         }else{
             Swal.fire({
                 icon: 'error',
@@ -198,7 +198,7 @@ $(".modal_contact_btn").on('click', function () {
                 title: 'Oops...',
                 html: '<div class="text-danger">Please provide the missing fields.</div>'
             })
-            $(".modal_contact_btn i").addClass('d-none');
+            $(".modal_contact_btnn i").addClass('d-none');
         }
     }
 
